@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  background: linear-gradient(145deg, rgb(1, 16, 115), rgba(100, 100, 228, 0.903), rgba(144, 144, 245, 0.903));
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 7px 80px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #1b2141;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+header .logo {
+  font-family: Audiowide;
+  text-transform: uppercase;
+  position: relative;
+  COLOR: WHITE;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+header .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header ul li {
+  list-style: none;
+  margin: 10 px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+header ul li a:hover {
+
+  background: #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef,
+    0 0 40px #1aeeef,
+    0 0 80px #1aeeef;
+}
+
+header .action .searchBx {
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+}
+
+header .action .searchBx input {
+  font-family: 'Poppins', sans-serif;
+}
+
+header .action .searchBx {
+  font-family: Poppins;
+  font-size: 15px;
+  margin: 2px;
+  color: #222
+}
+
+header .action .searchBx input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #222;
+  font-size: 1em;
+}
+
+/* Home Banner*/
+.banners {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banners .bg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banners .bg .content {
+  width: 40%;
+  height: 100%;
+}
+
+.banners .bg .content h2 {
+  font-family: poppins;
+  font-size: 4em;
+  color: aqua;
+  letter-spacing: 1px;
+}
+
+.banners .bg .content p {
+  font-family: poppins;
+  font-size: 1.5em;
+  color: #fff;
+}
+
+banners .bg .content {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px 0;
+  background: #1aeeef;
+  color: #fff;
+  border: 1px solid #1aeeef;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: poppins;
+  letter-spacing: 1px;
+  border-radius: 1px;
+}
+
+
+banners .bg .bcs img {
+  position: absolute;
+  left:50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+  width: auto;
+  height: 250px  ;
+  margin-right: ;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+
+}
+
+.about .contentBx {
+
+  width: 50%;
+  margin: 20px;
+}
+
+
+.about .contentBx h2 {
+  font-size: 3em;
+  color: #fff;
+  font-family: poppins;
+
+}
+
+.about .contentBx p {
+  max-width: 600px;
+  text-align: justify;
+  font-family: poppins;
+  color: #dbd9d9;
+}
+
+/*about .contentBx a{
+
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: 1px solid #1aeeef;
+  color: #fff;
+  text-decoration: none;
+  font-family: poppins;
+  letter-spacing: 1px;
+}
+
+.about .contentBx a:hover{
+  background:  #1aeeef;
+  color: #050e2d;
+  box-shadow: 0 0 10px #1aeeef,
+                0 0 40px #1aeeef,
+                0 0 80px #1aeeef;
+}.
+*/
+
+.about img {
+  width: 500px;
+  height: 300px;
+  position:absolute;
+
+}
+
+body {
+  font-family: poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.card-container {
+  margin-top:250px ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #090580;
+  border: 1px solid #ddd;
+  box-shadow: 30px black;
+  border-radius: 7px;
+  overflow: hidden;
+  width: 25%; 
+  min-width: 200px; 
+  text-align: left;
+}
+.card:hover{
+  border-radius: 8px;
+  box-shadow: 0 0 10px #1aeeef,
+  0 0 40px #1aeeef,
+  0 0 80px #1aeeef;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+  display: block;
+}
+
+.card p {
+  align-items:left;
+  margin: 0;
+  padding: 10px;
+  font-size: 14px;
+  font-family: poppins;
+  color: #10eef6;
+}
+ .card .button {
+  text-transform: uppercase;
+  color:white;
+  font-size: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Audiowide;
+  background-color: rgb(14, 166, 14);
+ }
+
+ .card .button:hover{
+  background-color:#1aeeef;
+  color: #222;
+  box-shadow: 0 0 10px #1aeeef,
+  0 0 40px #1aeeef,
+  0 0 80px #1aeeef;
+ }

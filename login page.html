@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login Page</title>
+    <style>
+        .btn {
+            width: 80%;
+            padding: 10px;
+            background-color: #b0b5f4;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            border-right: 35%;
+        }
+        .btn:hover {
+            background-color: #ef0606;
+        }
+.back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 5%;
+    background-color:blue;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+text-decoration: none;
+
+}
+.back:hover{
+  background-color: white;
+  color: red;
+  transition: ease-in out 0.5s;
+}
+    </style>
+    <script>
+        function clickk() {
+            const username = document.getElementById("Username").value;
+            const password = document.getElementById("Password").value;
+            const messageElement = document.getElementById("message");
+
+            if (password === 'varun' && username === 'varun12') {
+              window.location.href='homeon project.html';
+            } else {
+                messageElement.textContent = "Invalid username or password";
+                messageElement.style.color = "red";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="javascript:void(0);" onsubmit="clickk()">
+            <h1>Login</h1>
+            <div class="inputbox">
+                <input type="text" placeholder="Username" id="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="inputbox">
+                <input type="password" placeholder="Password" id="Password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <div class="back">
+        <a href ="HOMEPAGE.HTML"><p>back</p>
+      </div>
+
+</body>
+</html>

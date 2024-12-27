@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+
+background: linear-gradient(145deg, rgb(1, 16, 115), rgba(100, 100, 228, 0.903), rgba(144, 144, 245, 0.903)); 
+height:100vh;
+margin: 0;
+padding: 0%;
+
+}
+
+h1{
+  color :aqua;
+   text-transform: uppercase;
+   font-family: 'Audiowide', cursive;
+   
+}
+
+p{
+    text-transform: capitalize;
+    font-family: 'Orbitron', sans-serif;
+  color: BLACK;
+}
+
+.game-player {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+#vf{
+color:white;
+font-family: vt323;
+font-size:25px;
+}
+
+div .li{
+  text-transform: capitalize;
+  font-family: 'Orbitron', sans-serif;
+color: BLACK;
+}
+

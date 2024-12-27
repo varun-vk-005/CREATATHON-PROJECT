@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+.nav{
+    text-transform: uppercase;
+    font-family: Audiowide;
+    position: absolute;
+    bottom:30px ;
+    margin-left: 30px;
+display: flex;
+justify-content: space-around;
+justify-content: space-between;
+}
+.nav .dn{
+border: 2px solid black ;
+padding: 10px;
+color:white;
+background-color: rgb(48, 238, 48);
+justify-content: space-between;
+margin: 30px;}
+
+.nav .dn a{
+    text-decoration: none;
+    color: black;
+}
+.nav .dn a:hover{
+    color:white;
+   
+}
+.nav .dn:hover{
+    color:white;
+    background-color: rgb(93, 93, 241);
+}
+.nav .bk{
+    border: 2px solid black ;
+    padding: 10px;
+    color:white;
+background-color: rgb(48, 238, 48);
+    justify-content: space-between;
+    margin: 30px;}
+    
+    .nav .bk a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav .bk a:hover{
+        color:white;
+       
+    }
+    .nav .bk:hover{
+        color:white;
+        background-color: rgb(9, 9, 14);
+    
+    }
